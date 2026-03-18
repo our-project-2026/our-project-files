@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FASTQ Dataset Preparation for Disease Classification
 
 Project Purpose
@@ -60,3 +61,6 @@ Links: https://www.ncbi.nlm.nih.gov/sra
 
 
 
+=======
+# our-project-files
+>>>>>>> 43ff48bac4b16c6286c97d274bf80ce96d3dda63
