@@ -1,66 +1,35 @@
-<<<<<<< HEAD
-FASTQ Dataset Preparation for Disease Classification
+# FASTQ Dataset Preparation for Disease Classification
 
-Project Purpose
+## Project Purpose
+This project prepares RNA-seq FASTQ datasets for binary classification 
+between healthy control samples and disease samples using bioinformatics 
+and machine learning techniques.
 
-This project prepares RNA-seq FASTQ datasets for binary classification between healthy control samples and disease samples using bioinformatics and machine learning techniques.
+- Class 0: Healthy Control Samples
+- Class 1: Disease Samples
 
-
-
-Class 0: Healthy Control Samples
-
-Class 1: Disease Samples
-
-
-
-Quick Start
-
-python -m venv bioinfo\_env
-
-bioinfo\_env\\Scripts\\activate
-
+## Quick Start
+```bash
+python -m venv bioinfo_env
+bioinfo_env\Scripts\activate
 pip install -r requirements.txt
+```
 
-Dataset Sources
-
+## Dataset Sources
 Source: NCBI SRA
 
-Control Samples:
+**Control Samples:**
+- SRR37278450
+- SRR37278472
+- SRR37278459
+- SRR37278479
+- SRR37278475
 
-
-
-SRR37278450
-
-SRR37278472
-
-SRR37278459
-
-SRR37278479
-
-SRR37278475
-
-
-
-Disease Samples:
-
-
-
-SRR37278463
-
-SRR37278456
-
-SRR37278448
-
-SRR37278465
-
-SRR37278483
-
-
+**Disease Samples:**
+- SRR37278463
+- SRR37278456
+- SRR37278448
+- SRR37278465
+- SRR37278483
 
 Links: https://www.ncbi.nlm.nih.gov/sra
-
-
-
-=======
-# our-project-files
->>>>>>> 43ff48bac4b16c6286c97d274bf80ce96d3dda63
